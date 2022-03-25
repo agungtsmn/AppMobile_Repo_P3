@@ -17,7 +17,7 @@ class EnkapsulasiB(_id: Int, _name: String, _age: Int) {
     }
 }
 fun main() {
-    val emp = EnkapsulasiB(1101, "Agung", 25)
+    val emp = EnkapsulasiB(1101, "Agung", 20)
     println("Id : ${emp.id}, Nama : ${emp.name}, Umur : ${emp.age}")
     emp.age = -1
 }
